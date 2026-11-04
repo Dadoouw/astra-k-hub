@@ -1,22 +1,14 @@
-ASTRA K HUB – PWA pour Windows + iPhone
+ASTRA K HUB — Version 0.2
 
-MISE EN LIGNE GRATUITE AVEC GITHUB PAGES
-1. Depuis Windows, crée un compte GitHub si nécessaire.
-2. Crée un nouveau dépôt public nommé exactement : astra-k-hub
-3. Dans le dépôt, clique Add file > Upload files.
-4. Décompresse ce ZIP sur ton PC et glisse tous les fichiers contenus dans le dossier ASTRA_K_HUB_PWA dans GitHub (index.html doit être à la racine du dépôt).
-5. Clique Commit changes.
-6. Ouvre Settings > Pages.
-7. Dans Build and deployment, choisis Deploy from a branch, branche main, dossier / (root), puis Save.
-8. Attends quelques minutes. L'adresse sera : https://TON-PSEUDO.github.io/astra-k-hub/
+Mise à jour de l'interface : tableau de bord sombre, visuel Astra K noire, compteurs graphiques, tuiles d'accès rapide et pages Compteurs / Mon Astra / Diagnostic / Média / GPS / Réglages.
 
-INSTALLATION SUR IPHONE
-1. Ouvre l'adresse HTTPS dans Safari (pas dans le navigateur intégré d'une autre app).
-2. Appuie sur Partager.
-3. Choisis Sur l'écran d'accueil.
-4. Active éventuellement « Ouvrir comme app web » si l'option apparaît, puis Ajouter.
+IMPORTANT : les jauges sont des maquettes. Elles n'affichent PAS encore de mesures réelles. La connexion OBD2 n'est pas implémentée dans cette version.
 
-MODIFICATIONS
-Tu peux modifier index.html, style.css et app.js depuis Windows avec Visual Studio Code, puis renvoyer les fichiers sur GitHub.
+Installation sur GitHub Pages :
+1. Ouvrir le dépôt GitHub Dadoouw/astra-k-hub.
+2. Ajouter/remplacer les fichiers du ZIP à la racine du dépôt (index.html, style.css, app.js, sw.js, README.txt).
+3. Ajouter aussi astra-black-hero.jpg à la racine.
+4. Valider avec Commit changes.
+5. Sur iPhone, fermer complètement ASTRA K HUB puis rouvrir le site. Si l'ancienne version reste affichée, ouvrir le site dans Safari et actualiser deux fois.
 
-Limites : PWA iPhone autonome, pas une app CarPlay native. Les données OBD2 et l'intégration CarPlay ne sont pas implémentées dans cette version.
+L'application est une PWA iPhone. Elle ne remplace pas CarPlay.
