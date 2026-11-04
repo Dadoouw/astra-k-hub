@@ -1,0 +1,10 @@
+{
+  "name": "ASTRA K HUB",
+  "short_name": "ASTRA HUB",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#090b0e",
+  "theme_color": "#090b0e",
+  "description": "Application compagnon pour Opel Astra K",
+  "icons": [{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any"}]
+}
